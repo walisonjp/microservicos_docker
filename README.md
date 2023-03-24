@@ -1,0 +1,10 @@
+Docker: Utilização prática no cenário de Microsserviços
+Orientação por Denilson Bonatti, Instrutor - Digital Innovation One
+
+Os containers são uma forma de virtualização que permite que aplicações e serviços sejam executados de forma isolada em um ambiente compartilhado. Isso significa que um container pode ter todas as bibliotecas e dependências necessárias para executar uma aplicação sem afetar outras aplicações em execução no mesmo sistema.
+
+No contexto de microsserviços, os containers são uma ferramenta importante para garantir a escalabilidade, a portabilidade e a flexibilidade das aplicações. Cada microsserviço é executado em um container separado, o que permite que cada serviço seja escalado independentemente, sem afetar os outros serviços em execução. Além disso, os containers permitem que os desenvolvedores implantem e atualizem serviços de forma rápida e fácil, sem precisar gerenciar diretamente o ambiente em que a aplicação está sendo executada.
+
+Um exemplo prático de como os containers podem ser aplicados no dia a dia é a implantação de um aplicativo web com vários serviços diferentes. Digamos que um aplicativo web tenha um serviço de banco de dados, um serviço de frontend e um serviço de backend. Cada um desses serviços pode ser executado em um container separado, com suas próprias bibliotecas e dependências. Isso permite que cada serviço seja escalado independentemente, permitindo que a aplicação como um todo seja mais escalável e flexível.
+
+Para trabalhar com containers, é necessário ter conhecimentos básicos em Linux, Docker e AWS, como mencionado na descrição da Live Coding. O Docker é uma plataforma popular para a criação, implantação e gerenciamento de containers, enquanto a AWS é uma plataforma de nuvem que oferece uma variedade de serviços de infraestrutura, incluindo suporte para containers.
